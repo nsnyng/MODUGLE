@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+/* 레이아웃 */
+#wrap{width: 1000px; height: 900px; margin: 0 auto; font-size: 30px; color: #fff; text-align: center; text-transform: uppercase;}
+#header{width: 1000px; height: 100px; background: #111;}
+#nav{width: 1000px; height: 100px; background: #222}
+#con_best{float: left; width: 800px; height: 100px; background: #333}
+#login{float: left; width: 200px; height: 100px; background: #444}
+#content1{float: left; width: 500px; height: 100px; background: #555}
+#content2{float: left; width: 500px; height: 100px; background: #666}
+#footer{clear: both; width: 1000px; height: 100px; background: #777}
+
+/* 컨테이너 */
+.container{}

@@ -3,15 +3,30 @@
     padding: 0;
 }
 
+/* 링크 밑줄, 색 없애기 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* nav 설정 */
+nav{
+    margin-left: 20px;
+    text-align: left;
+}
+
 /* 레이아웃 */
-#wrap{width: 1000px; height: 900px; margin: 0 auto; font-size: 30px; color: #fff; text-align: center; text-transform: uppercase;}
-#header{width: 1000px; height: 100px; background: #111;}
-#nav{width: 1000px; height: 100px; background: #222}
-#con_best{float: left; width: 800px; height: 100px; background: #333}
-#login{float: left; width: 200px; height: 100px; background: #444}
-#content1{float: left; width: 500px; height: 100px; background: #555}
-#content2{float: left; width: 500px; height: 100px; background: #666}
-#footer{clear: both; width: 1000px; height: 100px; background: #777}
+#wrap{height: 900px; color: #fff; text-align: center; text-transform: uppercase;}
+#header{height: 100px; background: #111;}
+#nav{height: 50px; background: #222}
+#con_best{height: 300px; background: #333}
+#content1{height: 500px; background: #555}
+#footer{height: 100px; background: #777}
 
 /* 컨테이너 */
-.container{}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+    background: rgba(111, 199, 250, 0.23);
+}

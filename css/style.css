@@ -12,7 +12,10 @@ a{
 /* nav 설정 */
 nav{
     margin-left: 20px;
-    text-align: left;
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    font-size: 25px;
 }
 
 /* 레이아웃 */
@@ -29,4 +32,16 @@ nav{
     margin: 0 auto;
     height: inherit;
     background: rgba(111, 199, 250, 0.23);
+}
+
+ol{
+    font-size: 20px;
+    line-height: 1.5;
+    list-style: none;
+    text-align: left;
+}
+
+ 
+ol li img {
+    vertical-align: top;
 }
